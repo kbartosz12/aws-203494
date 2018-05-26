@@ -1,6 +1,6 @@
 import boto3
 
-bucket_name = '204240-legutek'
+bucket_name = '203494-bucket'
 s3 = boto3.resource('s3')
 bucket = s3.Bucket(bucket_name)
 
