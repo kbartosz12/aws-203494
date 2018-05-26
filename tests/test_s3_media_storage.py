@@ -1,5 +1,5 @@
 import unittest
-import os, boto3
+import os, boto3 
 from media.s3_storage import S3MediaStorage
 
 class TestS3Storage(unittest.TestCase):
@@ -25,5 +25,3 @@ class TestS3Storage(unittest.TestCase):
     my_file.close()
 
     return open('/tmp/test.txt', 'rb')
-
-
